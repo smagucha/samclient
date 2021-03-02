@@ -1,0 +1,37 @@
+.innercontainer{
+	width: 100%;
+	min-height: xxx;
+	overflow: hidden;
+	margin-top: 10px;
+	border-style: solid;
+}
+.innerdiv{
+	width: 98%;
+	height:10vh;
+	margin: 5px;
+	padding:5px;
+	text-align:justify;
+}
+.maindiv{
+	width: 98%;
+	margin: 5px;
+	margin-top: 50px;
+	min-height: xxx;
+	overflow: hidden;
+}
+textarea{
+	width:100%;
+}
+
+.col{
+	float:left;
+	width:48%;
+	border-style: solid;
+	height: 100%;
+	margin:5px;
+	min-height: 25vh;
+}
+
+.col input[type=text]{
+	width:100%;
+}

@@ -1,0 +1,17 @@
+{%extends 'stock/base.html'%}
+{%load static%}
+{% load crispy_forms_tags %}
+{%block content%}
+<link rel="stylesheet"  type="text/css" href="static/css/main.css">
+<div class='innercontainer'>
+	<div class='maindiv'>
+		<a href="{%  url 'addcategory' %}">add category</a>
+		<a href="{%  url 'addmanufacturer' %}">add manufacurer</a>
+		<form method='POST'>
+      {%csrf_token%}  
+      {{form|crispy}}
+      <input type="submit" name="submit">
+    </form>
+	</div>
+</div>
+{%endblock%}

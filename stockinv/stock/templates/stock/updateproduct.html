@@ -1,0 +1,10 @@
+{%extends 'stock/base.html'%}
+{%load static%}
+{% load crispy_forms_tags %}
+{%block content%}
+<form method="Post">
+	{%csrf_token%}
+	{{form|crispy}}
+	<input type="submit" name="submit">
+</form>
+{%endblock%}

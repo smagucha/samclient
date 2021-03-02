@@ -1,0 +1,37 @@
+{%extends 'stock/base.html'%}
+{%load static%}
+{%block content%}
+<link rel="stylesheet"  type="text/css" href="{%static 'css/main.css' %}">
+<link rel="stylesheet"  type="text/css" href="{%static 'css/table.css' %}">
+<div class='innercontainer'>
+	<div class='innerdiv'>
+		<h4>history</h4> <br>
+		<label>type</label>
+		<select>
+			<option>all</option>
+			<option>stock in</option>
+			<option>stock out</option>
+			<option>audit</option>
+		</select>
+		<label>product</label>
+		<select>
+			<option>product</option>
+		</select>
+		<label>panter</label>
+		<select>
+			<option>all</option>
+		</select>
+		<label>panter</label>
+		<select>
+			<option>sammy magucha</option>
+		</select>
+		<br>
+		<hr>
+	</div>
+	<div class='maindiv'>
+		<p>tables for history</p>
+		<p>stock in</p>
+		<p>stock out</p>
+		<p> audit</p>
+	</div>
+{%endblock%}
